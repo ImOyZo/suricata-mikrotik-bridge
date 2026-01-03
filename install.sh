@@ -39,7 +39,7 @@ sudo systemctl restart suricata
 sudo cp "$ORIGINAL_DIR/mikrotik2suricata.py" /usr/local/bin
 sudo cp "$ORIGINAL_DIR/mikrotik2suricatabridge.service" /etc/systemd/system/
 sudo systemctl daemon-reload
-sudo systemctl enable --now mikrotik2suricatabridge.service.service
+sudo systemctl enable --now mikrotik2suricatabridge.service
 
 echo "================= INSTALATION COMPLETE ================="
 echo "Please change your token in /usr/local/bin/mikrotik2suricata.py"
